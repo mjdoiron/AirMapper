@@ -19,7 +19,3 @@ AirMapper is the first iOS App built specifically for controlling electronic tab
 * [SwiftyDraw](https://github.com/Awalz/SwiftyDraw) - A simple, lightweight drawing framework
 * [Eureka](https://github.com/xmartlabs/Eureka) - Elegant iOS form builder
 * [SideMenu](https://github.com/jonkykong/SideMenu) - Simple side menu control for iOS
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
