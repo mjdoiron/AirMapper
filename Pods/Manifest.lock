@@ -1,0 +1,18 @@
+PODS:
+  - Eureka (3.0.0)
+  - SideMenu (2.3.1)
+  - SwiftyDraw (1.0.1)
+
+DEPENDENCIES:
+  - Eureka
+  - SideMenu
+  - SwiftyDraw
+
+SPEC CHECKSUMS:
+  Eureka: f36fd440c3ebb7bfea0a4fbe6f16a05f1cb35906
+  SideMenu: 2a3c3da0b3d5f78a047b2271bb7398260fcd7e3d
+  SwiftyDraw: d62a11b3558dc83f2c8803ea9850d8b2c72b0f48
+
+PODFILE CHECKSUM: a99245f6a39a752f47a020e1dd4ecdae41691cab
+
+COCOAPODS: 1.2.0

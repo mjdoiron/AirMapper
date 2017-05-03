@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9622C1FC1EB6BEC100C83F6D /* MapScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9622C1FB1EB6BEC100C83F6D /* MapScrollView.swift */; };
+		9622C1FE1EB8225200C83F6D /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9622C1FD1EB8225200C83F6D /* UIImage+Extension.swift */; };
+		9622C2021EB8E0FF00C83F6D /* SecondaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9622C2011EB8E0FF00C83F6D /* SecondaryViewController.swift */; };
+		9674CAA91EB6719700BBCDBA /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9674CAA81EB6719700BBCDBA /* SideMenuViewController.swift */; };
 		96D268211EB560EA0027B97A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D268201EB560EA0027B97A /* AppDelegate.swift */; };
-		96D268231EB560EA0027B97A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D268221EB560EA0027B97A /* ViewController.swift */; };
+		96D268231EB560EA0027B97A /* PrimaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D268221EB560EA0027B97A /* PrimaryViewController.swift */; };
 		96D268261EB560EA0027B97A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D268241EB560EA0027B97A /* Main.storyboard */; };
 		96D268281EB560EA0027B97A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D268271EB560EA0027B97A /* Assets.xcassets */; };
 		96D2682B1EB560EA0027B97A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D268291EB560EA0027B97A /* LaunchScreen.storyboard */; };
 		96D268361EB560EA0027B97A /* AirMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D268351EB560EA0027B97A /* AirMapperTests.swift */; };
 		96D268411EB560EA0027B97A /* AirMapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D268401EB560EA0027B97A /* AirMapperUITests.swift */; };
+		B28F6E00B748E439525F6795 /* Pods_AirMapperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060092C7C9B8C2C5669A351C /* Pods_AirMapperUITests.framework */; };
+		E498105C56DD61674E790C91 /* Pods_AirMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D47D57BCEB3B7CE3C4ABD7 /* Pods_AirMapper.framework */; };
+		F2ED53C1740ADE1B830BEA45 /* Pods_AirMapperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8314348660D09FC03D82CC8 /* Pods_AirMapperTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		060092C7C9B8C2C5669A351C /* Pods_AirMapperUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirMapperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E91CC14CECBE433CCE6EB34 /* Pods-AirMapperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirMapperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirMapperUITests/Pods-AirMapperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		29FB50FE9D15640FBF688E3B /* Pods-AirMapperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirMapperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirMapperUITests/Pods-AirMapperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8280CF5619D81ECCBE641B83 /* Pods-AirMapperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirMapperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirMapperTests/Pods-AirMapperTests.release.xcconfig"; sourceTree = "<group>"; };
+		89C27D12C398F6C1FAF74F6F /* Pods-AirMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirMapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirMapper/Pods-AirMapper.debug.xcconfig"; sourceTree = "<group>"; };
+		89D47D57BCEB3B7CE3C4ABD7 /* Pods_AirMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9622C1FB1EB6BEC100C83F6D /* MapScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapScrollView.swift; sourceTree = "<group>"; };
+		9622C1FD1EB8225200C83F6D /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		9622C2011EB8E0FF00C83F6D /* SecondaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryViewController.swift; sourceTree = "<group>"; };
+		9674CAA81EB6719700BBCDBA /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		96D2681D1EB560EA0027B97A /* AirMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D268201EB560EA0027B97A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96D268221EB560EA0027B97A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96D268221EB560EA0027B97A /* PrimaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryViewController.swift; sourceTree = "<group>"; };
 		96D268251EB560EA0027B97A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96D268271EB560EA0027B97A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96D2682A1EB560EA0027B97A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +64,9 @@
 		96D2683C1EB560EA0027B97A /* AirMapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirMapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D268401EB560EA0027B97A /* AirMapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirMapperUITests.swift; sourceTree = "<group>"; };
 		96D268421EB560EA0027B97A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8314348660D09FC03D82CC8 /* Pods_AirMapperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirMapperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B9FBB7156208B4B2D19333 /* Pods-AirMapperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirMapperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirMapperTests/Pods-AirMapperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D25AD1DEB04518F614F6EF5C /* Pods-AirMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirMapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirMapper/Pods-AirMapper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E498105C56DD61674E790C91 /* Pods_AirMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2ED53C1740ADE1B830BEA45 /* Pods_AirMapperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B28F6E00B748E439525F6795 /* Pods_AirMapperUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				96D268341EB560EA0027B97A /* AirMapperTests */,
 				96D2683F1EB560EA0027B97A /* AirMapperUITests */,
 				96D2681E1EB560EA0027B97A /* Products */,
+				E280A1DE99D57AD6F4521FB5 /* Pods */,
+				C280945C70C2C300D03EAA84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +123,15 @@
 			isa = PBXGroup;
 			children = (
 				96D268201EB560EA0027B97A /* AppDelegate.swift */,
-				96D268221EB560EA0027B97A /* ViewController.swift */,
+				96D268221EB560EA0027B97A /* PrimaryViewController.swift */,
+				9622C2011EB8E0FF00C83F6D /* SecondaryViewController.swift */,
+				9674CAA81EB6719700BBCDBA /* SideMenuViewController.swift */,
 				96D268241EB560EA0027B97A /* Main.storyboard */,
 				96D268271EB560EA0027B97A /* Assets.xcassets */,
 				96D268291EB560EA0027B97A /* LaunchScreen.storyboard */,
 				96D2682C1EB560EA0027B97A /* Info.plist */,
+				9622C1FB1EB6BEC100C83F6D /* MapScrollView.swift */,
+				9622C1FD1EB8225200C83F6D /* UIImage+Extension.swift */,
 			);
 			path = AirMapper;
 			sourceTree = "<group>";
@@ -125,6 +154,29 @@
 			path = AirMapperUITests;
 			sourceTree = "<group>";
 		};
+		C280945C70C2C300D03EAA84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89D47D57BCEB3B7CE3C4ABD7 /* Pods_AirMapper.framework */,
+				C8314348660D09FC03D82CC8 /* Pods_AirMapperTests.framework */,
+				060092C7C9B8C2C5669A351C /* Pods_AirMapperUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E280A1DE99D57AD6F4521FB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89C27D12C398F6C1FAF74F6F /* Pods-AirMapper.debug.xcconfig */,
+				D25AD1DEB04518F614F6EF5C /* Pods-AirMapper.release.xcconfig */,
+				C9B9FBB7156208B4B2D19333 /* Pods-AirMapperTests.debug.xcconfig */,
+				8280CF5619D81ECCBE641B83 /* Pods-AirMapperTests.release.xcconfig */,
+				0E91CC14CECBE433CCE6EB34 /* Pods-AirMapperUITests.debug.xcconfig */,
+				29FB50FE9D15640FBF688E3B /* Pods-AirMapperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96D268451EB560EA0027B97A /* Build configuration list for PBXNativeTarget "AirMapper" */;
 			buildPhases = (
+				ED346958438F18D1C8CCC82D /* [CP] Check Pods Manifest.lock */,
 				96D268191EB560EA0027B97A /* Sources */,
 				96D2681A1EB560EA0027B97A /* Frameworks */,
 				96D2681B1EB560EA0027B97A /* Resources */,
+				07867D57D4362E2FC7F32290 /* [CP] Embed Pods Frameworks */,
+				BE986F6C7AEB2BABE399F490 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96D268481EB560EA0027B97A /* Build configuration list for PBXNativeTarget "AirMapperTests" */;
 			buildPhases = (
+				BD592B2F3AA5603C705DC858 /* [CP] Check Pods Manifest.lock */,
 				96D2682D1EB560EA0027B97A /* Sources */,
 				96D2682E1EB560EA0027B97A /* Frameworks */,
 				96D2682F1EB560EA0027B97A /* Resources */,
+				1263EF02588559596D5E17C8 /* [CP] Embed Pods Frameworks */,
+				2766457263CD9E33A61FC314 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96D2684B1EB560EA0027B97A /* Build configuration list for PBXNativeTarget "AirMapperUITests" */;
 			buildPhases = (
+				916F4001CAD1BB04118C6070 /* [CP] Check Pods Manifest.lock */,
 				96D268381EB560EA0027B97A /* Sources */,
 				96D268391EB560EA0027B97A /* Frameworks */,
 				96D2683A1EB560EA0027B97A /* Resources */,
+				20FDCEB0822F38093175249A /* [CP] Embed Pods Frameworks */,
+				AD2B1FA61B271562525FF888 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +318,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07867D57D4362E2FC7F32290 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirMapper/Pods-AirMapper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1263EF02588559596D5E17C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirMapperTests/Pods-AirMapperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20FDCEB0822F38093175249A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirMapperUITests/Pods-AirMapperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2766457263CD9E33A61FC314 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirMapperTests/Pods-AirMapperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		916F4001CAD1BB04118C6070 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD2B1FA61B271562525FF888 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirMapperUITests/Pods-AirMapperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD592B2F3AA5603C705DC858 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE986F6C7AEB2BABE399F490 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirMapper/Pods-AirMapper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED346958438F18D1C8CCC82D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96D268191EB560EA0027B97A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96D268231EB560EA0027B97A /* ViewController.swift in Sources */,
+				96D268231EB560EA0027B97A /* PrimaryViewController.swift in Sources */,
+				9674CAA91EB6719700BBCDBA /* SideMenuViewController.swift in Sources */,
+				9622C1FE1EB8225200C83F6D /* UIImage+Extension.swift in Sources */,
+				9622C1FC1EB6BEC100C83F6D /* MapScrollView.swift in Sources */,
 				96D268211EB560EA0027B97A /* AppDelegate.swift in Sources */,
+				9622C2021EB8E0FF00C83F6D /* SecondaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +618,7 @@
 		};
 		96D268461EB560EA0027B97A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C27D12C398F6C1FAF74F6F /* Pods-AirMapper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6B9CF5W58T;
@@ -428,6 +632,7 @@
 		};
 		96D268471EB560EA0027B97A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25AD1DEB04518F614F6EF5C /* Pods-AirMapper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6B9CF5W58T;
@@ -441,6 +646,7 @@
 		};
 		96D268491EB560EA0027B97A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B9FBB7156208B4B2D19333 /* Pods-AirMapperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +662,7 @@
 		};
 		96D2684A1EB560EA0027B97A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8280CF5619D81ECCBE641B83 /* Pods-AirMapperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +678,7 @@
 		};
 		96D2684C1EB560EA0027B97A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E91CC14CECBE433CCE6EB34 /* Pods-AirMapperUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6B9CF5W58T;
@@ -485,6 +693,7 @@
 		};
 		96D2684D1EB560EA0027B97A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29FB50FE9D15640FBF688E3B /* Pods-AirMapperUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6B9CF5W58T;
@@ -516,6 +725,7 @@
 				96D268471EB560EA0027B97A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96D268481EB560EA0027B97A /* Build configuration list for PBXNativeTarget "AirMapperTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +734,7 @@
 				96D2684A1EB560EA0027B97A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96D2684B1EB560EA0027B97A /* Build configuration list for PBXNativeTarget "AirMapperUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +743,7 @@
 				96D2684D1EB560EA0027B97A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
